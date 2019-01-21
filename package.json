@@ -1,0 +1,27 @@
+{
+  "name": "breakout",
+  "version": "1.0.0",
+  "description": "The game breakout using a html5 canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosherapp/breakout.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "Moshe S Rapp",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mosherapp/breakout/issues"
+  },
+  "homepage": "https://github.com/mosherapp/breakout#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
